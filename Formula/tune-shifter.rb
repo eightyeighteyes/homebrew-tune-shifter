@@ -13,76 +13,76 @@ class TuneShifter < Formula
 
   desc "Automated audio library ingest daemon for Bandcamp downloads"
   homepage "https://github.com/eightyeighteyes/tune-shifter"
-  url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-  sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+  url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+  sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   license "GPL-3.0-only"
 
   depends_on "python@3.11"
 
   resource "watchdog" do
-    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-    sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+    sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   end
 
   resource "musicbrainzngs" do
-    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-    sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+    sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   end
 
   resource "mutagen" do
-    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-    sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+    sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   end
 
   resource "requests" do
-    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-    sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+    sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   end
 
   resource "certifi" do
-    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-    sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+    sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   end
 
   resource "charset-normalizer" do
-    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-    sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+    sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   end
 
   resource "idna" do
-    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-    sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+    sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   end
 
   resource "urllib3" do
-    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-    sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+    sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   end
 
   resource "Pillow" do
-    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-    sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+    sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   end
 
   # playwright publishes wheels only (no sdist); use the universal2 wheel for macOS.
   resource "playwright" do
-    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-    sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+    sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   end
 
   resource "greenlet" do
-    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-    sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+    sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   end
 
   resource "pyee" do
-    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-    sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+    sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   end
 
   resource "typing-extensions" do
-    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.1.0/tune_shifter-0.1.0.tar.gz"
-    sha256 "2b5460929729950a14b1fd596d41ae1010cb7ceef25270c4fcc23a28d65112df"
+    url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.2.1/tune_shifter-0.2.1.tar.gz"
+    sha256 "a1bf8fc1c41284f3a130832b063dd21111150f57b0cd1447089249531eee1358"
   end
 
   def install
@@ -91,10 +91,9 @@ class TuneShifter < Formula
   end
 
   def caveats
+    usage = (share/"tune-shifter"/"USAGE.md").read
     <<~EOS
-      Quick-start guide:
-        open "#{share}/tune-shifter/USAGE.md"
-
+      #{usage}
       Bandcamp auto-download requires Playwright browser binaries.
       Run this once after install:
 

@@ -11,8 +11,8 @@
 class TuneShifter < Formula
   desc "Automated audio library ingest daemon for Bandcamp downloads"
   homepage "https://github.com/eightyeighteyes/tune-shifter"
-  url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.15.1/tune_shifter-0.15.1.tar.gz"
-  sha256 "2fce326c5c84aea4494847dd3f58b83e13f1ea9dd12eaf5dca684d42bce7b034"
+  url "https://github.com/eightyeighteyes/tune-shifter/releases/download/v0.15.2/tune_shifter-0.15.2.tar.gz"
+  sha256 "ce16d9432f2ae60b9c1d96705ee8553adfe2cd901c08776a0e562c10b1c331af"
 
   license "GPL-3.0-only"
 
@@ -45,7 +45,7 @@ class TuneShifter < Formula
                 "import sysconfig; print(sysconfig.get_config_var('LDVERSION') or '')").chomp
     system ENV.cc,
            buildpath/"launcher/main.c",
-           "-DVENV_PYTHON='\"#{venv_python}\"'",
+           "-DVENV_PYTHON=\"#{venv_python}\"",
            "-I#{include_dir}",
            *cflags.split,
            "-L#{lib_dir}", "-lpython#{py_ver}",

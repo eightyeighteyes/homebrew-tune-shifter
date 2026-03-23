@@ -11,12 +11,13 @@
 class Kamp < Formula
   desc "Automated audio library ingest daemon for Bandcamp downloads"
   homepage "https://github.com/eightyeighteyes/kamp"
-  url "https://github.com/eightyeighteyes/kamp/releases/download/v1.0.2/kamp-1.0.2.tar.gz"
-  sha256 "040388f9b041fdbba5c756cd06df296171d36c638573f8f02300e75ba848c13d"
+  url "https://github.com/eightyeighteyes/kamp/releases/download/v1.1.0/kamp-1.1.0.tar.gz"
+  sha256 "4b18df9de3340354e96fca4b58930bcdfdfe2086519bf52a858b8424ae0347df"
 
   license "GPL-3.0-only"
 
   depends_on "python@3.11"
+  depends_on "chromaprint"
 
   def install
     # Create a virtualenv and pip-install the package with all its dependencies.

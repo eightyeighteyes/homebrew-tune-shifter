@@ -11,8 +11,8 @@
 class Kamp < Formula
   desc "Automated audio library ingest daemon for Bandcamp downloads"
   homepage "https://github.com/eightyeighteyes/kamp"
-  url "https://github.com/eightyeighteyes/kamp/releases/download/v1.8.0/kamp-1.8.0.tar.gz"
-  sha256 "524e19ff46a434a0a60658ec7b1b67643432d0b4ae9c83afa80b1bcdc57dc513"
+  url "https://github.com/eightyeighteyes/kamp/releases/download/v1.9.0/kamp-1.9.0.tar.gz"
+  sha256 "bfa3388d47035c92adecd403fc1897101d71b9e04a227d58a79c072c8958866e"
 
   license "GPL-3.0-only"
 
